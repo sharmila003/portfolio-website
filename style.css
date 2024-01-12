@@ -24,7 +24,7 @@
     padding: 10px;
 }
  .Home{
-    background-color: white;
+    background-color:white;
     align-items: center;
     display:flex;
     justify-content: center;
@@ -144,12 +144,6 @@
  font-family: sans-serif;
  line-height: 1.2;
 }
-/*body{
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  background-color: black;
-}*/
 footer {
     display:flex;
     flex-wrap: wrap;
@@ -226,4 +220,38 @@ footer {
    .footer-col{
       width: 100%;
    }
+}
+.projects{
+    padding:20px;
+    text-align: center; 
+}
+.projectspageheading {
+     color: orange;
+     font-style: italic;
+}
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.projectcard{
+    border: 2px rgb(123, 0, 255)solid;
+    margin: 20px;
+    background-color: greenyellow; 
+    width: 500px;
+    height: 300px;
+    
+}
+
+.project-image {
+    width: 15%;
+    height: 15%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#resumeLink {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
 }
